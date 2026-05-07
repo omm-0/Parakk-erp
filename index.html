@@ -1,237 +1,202 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="robots" content="index, follow" />
-  <!-- This is the main page, so the canonical link is the root -->
-  <link rel="canonical" href="https://parakk-erp.site" />
-  <link rel="sitemap" href="https://parakk-erp.site/sitemap.xml">
-  <!-- Google verification link -->
-   <meta name="google-site-verification" content="ACGBTWwymV7IPe05eFHqQTyrgMcuEF0HYYsQFx4f01I" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Study Buddie | India's First Hybrid School ERP + Learning Visibility Platform</title>
+    <meta name="description" content="India's first hybrid School ERP + Learning Visibility Platform, bridging the gap between school operations and real student effort for better clarity, efficiency, and growth." />
+    <meta name="keywords" content="School ERP, Learning Visibility, Education Platform, Student Management, Parent Transparency, Predictive Analytics, India" />
+    <meta name="theme-color" content="#1B6B93" />
+    <link rel="canonical" href="index.html" />
 
-  <!-- Home Page Title & Description -->
-  <title>Parakk-ERP</title>
-  <meta name="description" content="India's first hybrid School ERP + Learning Visibility Platform, bridging the gap between school operations and real student effort." />
-  
-  <!--SEO Tags (Home)-->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://parakk-erp.site" />
-  <meta property="og:title" content="Parakk-ERP: Hybrid School ERP | Learning Visibility Platform for India" />
-  <meta property="og:description" content="India's first hybrid School ERP + Learning Visibility Platform, bridging the gap between school operations and real student effort for better clarity, efficiency, and growth." />
-  <meta property="og:image" content="https://parakk.png" /> 
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:url" content="https://parakk-erp.site" />
-  <meta name="twitter:title" content="Parakk-ERP: Hybrid School ERP | Learning Visibility Platform for India" />
-  <meta name="twitter:description" content="Bridging school operations and real student effort for better clarity, efficiency, and growth." />
-  <meta name="twitter:image" content="https://parakk.png" />
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Parakk-ERP",
-      "url": "https://parakk-erp.site",
-      "logo": "https://parakk.png",
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+91-9424526998",
-        "contactType": "For quiries and Support"
-      },
-      "sameAs": [
-        "www.linkedin.com/in/om-mishra-446578390"
-       
-      ]
-    }
-  </script>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Study Buddie | Hybrid School ERP + Learning Visibility" />
+    <meta property="og:description" content="Bridging the gap between school operations and real student effort." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Study Buddie | Hybrid School ERP + Learning Visibility" />
+    <meta name="twitter:description" content="India's first hybrid School ERP + Learning Visibility Platform." />
 
-  <link rel="icon" href="parakk.png" type="image/png">
-
-  <!-- Fonts: Poppins (Headings) & Inter (Body) -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
-  
-  <!-- Feather Icons (for decoration) -->
-  <script src="https://unpkg.com/feather-icons"></script>
-
-  <!-- Stylesheet -->
-  <link rel="stylesheet" href="style.css" />
-  
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Sora:wght@700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  
-  <!-- NAV (unikk-e style, no box) -->
-  <header class="nav-container" role="banner">
-    <div class="container nav-inner">
-
-        <!-- Updated href to point to index.html -->
-        <a class="brand" href="index.html" data-page="home" aria-label="Parakk home">
-        <img src="parakk.png" alt="Parakk-ERP Logo" class="brand-logo-img"> 
-        <span class="brand-text">Parakk-ERP</span>
-      </a>
-
-      <!-- Nav Links (Center) - Updated hrefs -->
-      <nav class="nav-links" role="navigation" aria-label="Main Navigation">
-        <a class="nav-link" data-page="home" href="index.html">Home</a>
-        <a class="nav-link" data-page="erp" href="erp.html">ERP Modules</a>
-        <a class="nav-link" data-page="visibility" href="visibility.html">Visibility</a>
-        <a class="nav-link" data-page="features" href="features.html">Features</a>
-        <a class="nav-link" data-page="about" href="about.html">About Us</a>
-      </nav>
-
-      <!-- Contact CTA (Right) - Updated href -->
-      <a class="nav-link-cta" data-page="contact" href="contact.html">Contact Us</a>
-      
-      <!-- Mobile Menu Button -->
-      <button id="menu-btn" class="menu-btn" aria-label="Toggle menu">
-        <i data-feather="menu"></i>
-      </button>
-    </div>
-  </header>
-  
-  <!-- Mobile Menu (Hidden by default) - Updated hrefs -->
-  <div id="mobile-menu" class="mobile-menu">
-    <a class="nav-link" data-page="home" href="index.html">Home</a>
-    <a class="nav-link" data-page="erp" href="erp.html">ERP Modules</a>
-    <a class="nav-link" data-page="visibility" href="visibility.html">Visibility</a>
-    <a class="nav-link" data-page="about" href="about.html">About Us</a>
-    <a class="nav-link" data-page="features" href="features.html">Features</a>
-    <a class="nav-link-cta" data-page="contact" href="contact.html">Contact Us</a>
-  </div>
-
-  <!-- MAIN CONTENT AREA: Only Home Page Section -->
-  <main class="main" id="main">
-
-    <noscript>
-      <p>Parakk-ERP is a Hybrid School ERP and Learning Visibility Platform that bridges the gap between school operations and student effort.</p>
-      <p>Key sections: ERP Modules, Visibility, Features, About, and Contact Us.</p>
-    </noscript>
-
-    <!-- ================= 1. HOME PAGE ================= -->
-    <!-- Removed 'active' class, script.js will handle fades -->
-    <section id="home" class="page" style="display: block;">
-      
-      <!-- Home: Hero Section -->
-      <div class="hero-section">
-        <div class="container hero-grid">
-          <div class="hero-content fade-in">
-            <!-- UPDATED from PDF -->
-            <div class="eyebrow">The Hybrid Platform for - ERP & Learning Transparency</div>
-            <h1 class="hero-title">
-              India's First Hybrid <span class="accent">School ERP</span> + <span class="accent">Learning Visibility</span> Platform
-            </h1>
-            <!-- UPDATED from PDF -->
-            <p class="hero-sub">
-              Bridging the gap between school operations and real student effort. It provides Learning Visibility and Transparency —a deep, predictive understanding of student effort and performance—seamlessly integrated with best-in-class ERP functionality.
-            </p>
-            <div class="hero-ctas">
-              <!-- Updated links to point to new files -->
-              <a href="erp.html" class="btn primary">Explore Modules</a>
-              <a href="contact.html" class="btn ghost">Get in Touch</a>
-            </div>
-          </div>
-          <div class="hero-image-wrapper fade-in" data-delay="150">
-            <img src="Dashboard.webp" alt="Parakk Dashboard Preview" class="hero-main-image">
-            <!-- Decorative elements -->
-            <div class="deco dash-1"></div>
-            <div class="deco dot-1"></div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Home: Why Us (3-Card Section) -->
-      <div class="page-section soft-bg">
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar" aria-label="Main navigation">
         <div class="container">
-          <header class="section-head fade-in">
-            <span class="eyebrow-center">Why Parakk-ERP?</span>
-            <h2>The Reason- Focus on Transformation</h2>
-          </header>
+            <div class="nav-inner">
+                <a href="index.html" class="nav-brand" aria-label="Study Buddie home">
+                    <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+                        <defs>
+                            <linearGradient id="sb-grad" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+                                <stop offset="0" stop-color="#1B6B93" />
+                                <stop offset="1" stop-color="#2ECC71" />
+                            </linearGradient>
+                        </defs>
+                        <path d="M20 3 L34 8 V19 C34 27 28 33.5 20 37 C12 33.5 6 27 6 19 V8 Z" fill="url(#sb-grad)" />
+                        <path d="M20 11 L29 14 L20 17 L11 14 Z" fill="#fff" />
+                        <path d="M14 16 V21 C14 22.5 16.5 23.5 20 23.5 C23.5 23.5 26 22.5 26 21 V16" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" />
+                        <path d="M14 27 L18 31 L26 22" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                    </svg>
+                    <span class="gradient-text">Study Buddie</span>
+                </a>
 
-          <div class="card-grid">
-            <div class="feature-card fade-in">
-              <div class="card-icon blue"><i data-feather="eye"></i></div>
-              <h3>01. Clarity </h3>
-              <!-- UPDATED from PDF -->
-              <p>Gamified Learning Scrutiny: Discover how students learn, not just what they score. Our gamification maps effort, engagement, and self-study patterns, providing unprecedented insight into academic trajectory.</p>
+                <div class="nav-links" id="navMenu">
+                    <a href="index.html" class="nav-link is-active">Home</a>
+                    <a href="erp.html" class="nav-link">ERP Modules</a>
+                    <a href="visibility.html" class="nav-link">Visibility</a>
+                    <a href="features.html" class="nav-link">Features</a>
+                    <a href="about.html" class="nav-link">About Us</a>
+                </div>
+
+                <a href="contact.html" class="btn btn-primary nav-cta">Contact Us</a>
+
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+                    <span></span><span></span><span></span>
+                </button>
             </div>
-            
-            <div class="feature-card fade-in" data-delay="150">
-               <div class="card-icon green"><i data-feather="cpu"></i></div>
-              <h3>02. Efficiency (Automation)</h3>
-              <!-- UPDATED from PDF -->
-              <p>Full-Stack ERP Automation: Automate complex processes—from fee collection and attendance to HR management. Reduce administrative overhead by up to 40% and free teachers to focus purely on teaching.</p>
-            </div>
-            
-            <div class="feature-card fade-in" data-delay="300">
-               <div class="card-icon orange"><i data-feather="trending-up"></i></div>
-              <h3>03. Growth (Prediction)</h3>
-              <!-- UPDATED from PDF -->
-              <p>Predictive Intervention: Identify students at risk weeks in advance using machine learning. Shift from remedial action to proactive guidance, ensuring every student reaches their full potential.</p>
-            </div>
-          </div>
         </div>
-      </div>
-      
-      <!-- Home: Call to Action for Visibility -->
-      <div class="page-section cta-section">
-        <div class="container text-center fade-in">
-          <h2>See the Unseen: Experience Learning Visibility</h2>
-          <p class="section-sub">Parakk is not just an ERP, it's a revolutionary way to understand student effort.</p>
-          <!-- Updated link -->
-          <a href="visibility.html" class="btn primary btn-large">Explore Visibility Features</a>
+    </nav>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero hero--full">
+            <span class="blob blob--blue blob--tr"></span>
+            <span class="blob blob--green blob--bl"></span>
+
+            <div class="container">
+                <div class="hero-inner">
+                    <span class="badge reveal" data-reveal-delay="100">The Hybrid Platform for ERP &amp; Learning Transparency</span>
+                    <h1 class="hero-title reveal" data-reveal-delay="200">
+                        India's First Hybrid School ERP +
+                        <span class="gradient-text">Learning Visibility Platform</span>
+                    </h1>
+                    <p class="hero-subtitle reveal" data-reveal-delay="350">
+                        Bridging the gap between school operations and real student effort. It provides Learning Visibility and Transparency &mdash; a deep, predictive understanding of student effort and performance &mdash; seamlessly integrated with best-in-class ERP functionality.
+                    </p>
+                    <div class="hero-actions reveal" data-reveal-delay="500">
+                        <a href="erp.html" class="btn btn-primary">
+                            Explore Modules
+                            <svg class="arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                        </a>
+                        <a href="contact.html" class="btn btn-outline">Get in Touch</a>
+                    </div>
+                </div>
+
+                <div class="hero-image-wrap reveal-scale" data-reveal-delay="700">
+                    <img src="images/Dashboard.webp" alt="Study Buddie unified dashboard preview" class="hero-image float" loading="eager" />
+                </div>
+            </div>
+        </section>
+
+        <div class="hero-divider"></div>
+
+        <!-- WHY STUDY BUDDIE -->
+        <section class="section section--white">
+            <div class="container">
+                <div class="section__head">
+                    <span class="badge reveal">Why Study Buddie?</span>
+                    <h2 class="section__title reveal" data-reveal-delay="120">
+                        The Reason &mdash; <span class="gradient-text">Focus on Transformation</span>
+                    </h2>
+                    <p class="section__subtitle reveal" data-reveal-delay="220">
+                        Three pillars that make Study Buddie fundamentally different from any school management software you've seen before.
+                    </p>
+                </div>
+
+                <div class="why-grid" data-stagger>
+                    <article class="why-card reveal">
+                        <span class="why-num">01</span>
+                        <span class="why-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14"/></svg>
+                        </span>
+                        <h3 class="why-title">Clarity</h3>
+                        <p class="why-text">Gamified Learning Scrutiny: Discover how students learn, not just what they score. Our gamification maps effort, engagement, and self-study patterns, providing unprecedented insight into academic trajectory.</p>
+                    </article>
+
+                    <article class="why-card reveal">
+                        <span class="why-num">02</span>
+                        <span class="why-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></svg>
+                        </span>
+                        <h3 class="why-title">Efficiency</h3>
+                        <p class="why-text">Full-Stack ERP Automation: Automate complex processes &mdash; from fee collection and attendance to HR management. Reduce administrative overhead by up to 40% and free teachers to focus purely on teaching.</p>
+                    </article>
+
+                    <article class="why-card reveal">
+                        <span class="why-num">03</span>
+                        <span class="why-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+                        </span>
+                        <h3 class="why-title">Growth</h3>
+                        <p class="why-text">Predictive Intervention: Identify students at risk weeks in advance using machine learning. Shift from remedial action to proactive guidance, ensuring every student reaches their full potential.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA BANNER -->
+        <section class="section section--light">
+            <div class="container">
+                <div class="cta-banner reveal">
+                    <h2>See the Unseen: Experience Learning Visibility</h2>
+                    <p>Study Buddie is not just an ERP &mdash; it's a revolutionary way to understand student effort.</p>
+                    <a href="visibility.html" class="btn btn-on-grad">
+                        Explore Visibility Features
+                        <svg class="arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="footer-brand">
+                        <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+                            <defs>
+                                <linearGradient id="sb-grad-f" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+                                    <stop offset="0" stop-color="#1B6B93" />
+                                    <stop offset="1" stop-color="#2ECC71" />
+                                </linearGradient>
+                            </defs>
+                            <path d="M20 3 L34 8 V19 C34 27 28 33.5 20 37 C12 33.5 6 27 6 19 V8 Z" fill="url(#sb-grad-f)" />
+                            <path d="M20 11 L29 14 L20 17 L11 14 Z" fill="#fff" />
+                            <path d="M14 16 V21 C14 22.5 16.5 23.5 20 23.5 C23.5 23.5 26 22.5 26 21 V16" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" />
+                            <path d="M14 27 L18 31 L26 22" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        </svg>
+                        Study Buddie
+                    </a>
+                    <p class="footer-tag">Where School Management Meets Student Success and Parent Transparency.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="erp.html">ERP Modules</a></li>
+                        <li><a href="visibility.html">Visibility</a></li>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="contact.html">Get in Touch</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="about.html">Why Study Buddie?</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; <span id="year">2025</span> Study Buddie. All Rights Reserved.
+            </div>
         </div>
-      </div>
-      
-    </section>
-    
-    <!-- Other sections (ERP, Visibility, etc.) have been moved to their own files -->
+    </footer>
 
-  </main>
-
-  <!-- FOOTER (unikk-e style, black) -->
-  <footer class="footer" role="contentinfo">
-    <div class="container footer-grid">
-      
-      <!-- Column 1: Brand -->
-      <div class="footer-col">
-        <!-- Updated link -->
-        <a class="brand" href="index.html" data-page="home" aria-label="Parakk home">
-          <!-- Footer Logo -->
-          <img src="parakk.png" alt="Parakk-ERP Logo" class="footer-logo-img">
-          <span class="brand-text-light">Parakk-ERP</span>
-        </a>
-        <p class="footer-sub">"Parakk-ERP: Where School Management Meets Student Success and Parents Transparency."</p>
-      </div>
-
-      <!-- Column 2: Quick Links -->
-      <div class="footer-col">
-        <h4 class="footer-title">Product</h4>
-        <!-- Updated links -->
-        <a class="footer-link" data-page="erp" href="erp.html">ERP Modules</a>
-        <a class="footer-link" data-page="visibility" href="visibility.html">Visibility Platform</a>
-        <a class="footer-link" data-page="contact" href="contact.html">Get in Touch</a>
-      </div>
-      
-      <!-- Column 3: Company -->
-      <div class="footer-col">
-        <h4 class="footer-title">Company</h4>
-        <!-- Updated links -->
-        <a class="footer-link" data-page="home" href="index.html">Why Parakk?</a>
-        <a class="footer-link" data-page="about" href="about.html">About Us</a>
-        <a class="footer-link" data-page="contact" href="contact.html">Contact</a>
-      </div>
-      
-    </div>
-    <div class="container footer-bottom">
-      <p><span id="year"></span> | Parakk-ERP |</p>
-    </div>
-  </footer>
-
-  <!-- Scroll to Top Button -->
-  <a href="#main" class="scroll-to-top" id="scrollTopBtn" aria-label="Scroll to top of page">
-    <i data-feather="arrow-up"></i>
-  </a>
-
-
-  <script src="script.js" defer></script>
-  
+    <script src="js/main.js" defer></script>
 </body>
 </html>

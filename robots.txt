@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://parakk-erp.site/sitemap.xml
